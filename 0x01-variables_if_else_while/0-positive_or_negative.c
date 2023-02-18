@@ -1,27 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** 
+/**
 *main - discribes the sign of the number
-*Return:0  returns the value
+*Return:0 returns the value
 **/
 int main(void)
 {
 int n;
 
-srand(time(0);
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-prinf(n "is posetive \n");
+printf("%d is posetive\n", n);
 }
 else if (n == 0)
 {
-printf(n "is zerro \n");
+printf("%d is zerro\n", n);
 }
 else
 {
-printf(n "is negative \n");
+printf("%d is negative\n", n);
 }
 return (0);
 }
