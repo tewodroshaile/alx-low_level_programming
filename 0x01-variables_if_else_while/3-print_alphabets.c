@@ -8,11 +8,15 @@
 int main(void)
 {
 char c = ' ';
+char t;
 
 for (c = 'a' ; c <= 'z' ; c++)
 {
 putchar(tolower(c));
-putchar(toupper(c));
+}
+for (t = 'a' ; t <= 'z' ; t++)
+{
+putchar(toupper(t));
 }
 putchar('\n');
 return (0);
