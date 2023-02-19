@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+/**
+ * main - the staring point of the program
+ * Return:0 it it returns the the out put
+ **/
+int main(void)
+{
+int n;
+int x;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+x = n % 10;
+if (x > 5)
+{
+printf("Last digit of %d is %d and is greater than 5\n", n, x);
+}
+else if (x == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n, x);
+}
+else if (x < 6 && x != 0)
+{
+printf("Last digit of %dis %d and is less than 6 and not o\n", n, x);
+}
+return (0);
+}
