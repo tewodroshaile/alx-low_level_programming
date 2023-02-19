@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - this program functions to print an alphabet on lowercase
+ * main -his program functions to print an alphabet on lowercase
  * return :0 (shows the success of the program)
  **/
 int main(void)
 {
-char c = 't';
+char c;
 
+for (c = 'a' ; c <= 'z' ; c++)
+{
 putchar(tolower(c));
+}
 return (0);
 }
