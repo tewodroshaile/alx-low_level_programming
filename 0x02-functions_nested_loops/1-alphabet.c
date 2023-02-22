@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_alphabet : a functiont that prints the alphabet
+* print_alphabet - a functiont that prints the alphabet
 * Description : a-z alphabet printing program
 */
 void print_alphabet(void)
