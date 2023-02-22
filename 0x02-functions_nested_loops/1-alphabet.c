@@ -2,7 +2,7 @@
 
 /**
 * print_alphabet : a functiont that prints the alphabet
-* Return: Always 0.
+* Description : a-z alphabet printing program
 */
 void print_alphabet(void)
 {
