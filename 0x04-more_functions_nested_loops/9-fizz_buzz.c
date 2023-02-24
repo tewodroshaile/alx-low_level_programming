@@ -39,5 +39,5 @@ _putchar('z');
 _putchar('z');
 }
 }
-return (i);
+return (0);
 }
