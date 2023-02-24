@@ -1,8 +1,9 @@
 #include "mmain.h"
 
 /**
- *print_square - it prints square design
- *@size: desides the size of the square
+ * print_square - it prints square design
+ * @size: desides the size of the square
+ * Return: the succsess of the program
  */
 
 void print_square(int size)
