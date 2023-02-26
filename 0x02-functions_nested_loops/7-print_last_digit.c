@@ -7,7 +7,15 @@
 int print_last_digit(int x)
 {
 int i;
+if (x >= 0){
 i = x % 10;
-_putchar(i);
+_putchar(i + '0');
+}
+else
+{
+x = x * -1;
+i = x % 10;
+_putchar(i + '0');
+}
 return (i);
 }
