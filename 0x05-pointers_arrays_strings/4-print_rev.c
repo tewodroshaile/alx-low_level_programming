@@ -7,18 +7,19 @@
 void print_rev(char *s)
 {
 int i;
+int reverse = s[0];
 int count = 0;
 
-while (*s != '0')
+while (s[count] != '0')
 {
 count++;
-s++;
 }
-s--;
-for (i = count; i > 0; i--)
+for (i = 0; i < count; i--)
 {
-putchar(*s);
-s--;
+count--;
+reverse = s[i];
+s[i] = s[count];
+s[count] = reverse;
 }
-putchar('\n');
+
 }
