@@ -5,6 +5,7 @@
  * @dest: destination parameter
  * @src: source parameter
  * @n: intiger variable
+ *
  * Description: strcpy project
  * Return: dest returns the compid value
  */
