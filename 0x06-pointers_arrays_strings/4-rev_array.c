@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * reverse_array - a funtonion that prints a value in reverse order.
  * @a: an array of string
