@@ -1,13 +1,12 @@
 #include "main.h"
 #include <string.h>
 /**
- * strncpy - string copy function
+ * _strncpy - string copy function
  * @dest: destination parameter
  * @src: source parameter
  * @n: intiger variable
- *
  * Description: strcpy project
- * Return: returns the compid value
+ * Return: dest returns the compid value
  */
 char *_strncpy(char *dest, char *src, int n)
 {
