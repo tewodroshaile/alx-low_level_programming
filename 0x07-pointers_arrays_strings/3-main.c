@@ -1,29 +1,18 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _strspn - Entry point
- * @s: char input
- * @accept: char input
- * Return: returns the succsess
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-unsigned int _strspn(char *s, char *accept)
+int main(void)
 {
-	unsigned int n = 0;
-	int r;
+char *s = "hello, world";
+char *f = "oleh";
+unsigned int n;
 
-	while (*s)
-	{
-		for (r = 0; accept[r]; r++)
-		{
-			if (*s == accept[r])
-			{
-				n++;
-				break;
-			}
-			else if (accept[r + 1] == '\0')
-				return (n);
-		}
-		s++;
-	}
-	return (n);
+n = _strspn(s, f);
+printf("%u\n", n);
+return (0);
 }
-
