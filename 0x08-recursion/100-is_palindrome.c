@@ -3,7 +3,7 @@ int check_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
 /**
  * is_palindrome - a function that cheecks a palindrome words
- * @s: the parametr tha holds a word 
+ * @s: the parametr tha holds a word
  * Return: returns 1 for plaindrome word and 0 for not.
  *
  */
