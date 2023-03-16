@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
 * malloc_checked - cause normal process termination with a status value of 98
@@ -7,7 +9,7 @@
 void *malloc_checked(unsigned int b)
 {
 
-oid *i;
+void *i;
 
 i = malloc(b);
 if (i == NULL)
