@@ -20,8 +20,8 @@ for (i = 0; i < n; i++)
 {
 	x = va_arg(arg, unsigned int);
 	printf("%d", x);
-	if (separator != NULL)
-		printf("%c",* separator);
+	if (i != (n - 1) && separator != NULL)
+		printf("%c", *separator);
 }
 printf("\n");
 va_end(arg);
