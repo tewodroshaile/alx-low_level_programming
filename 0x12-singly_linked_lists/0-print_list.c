@@ -18,8 +18,7 @@ int count = 0;
 }
 else
 {
-	printf("[%d] ", h->len);
-	printf("%s \n", h->str);
+	printf("[%d] %s\n", h->len, h->str);
 }
 count++;
 h = h->next;
