@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-/**
- *_print_it - a function that prints a string
- */
-void _print_it();
-void _print_it()
-{
-printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
-}
+#include "lists.h"
 /**
  * main - check the code
  *
