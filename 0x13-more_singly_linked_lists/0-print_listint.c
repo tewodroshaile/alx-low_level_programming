@@ -14,7 +14,7 @@ int x = 0;
 while (h != NULL)
 {
 	x++;
-	printf("%d \n", h->n);
+	printf("%d\n", h->n);
 	h = h->next;
 }
 return (x);
