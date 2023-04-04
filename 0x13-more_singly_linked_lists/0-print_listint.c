@@ -2,16 +2,20 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+/**
+ * print_listint - a function that returns the number of node
+ * @h: a recived node parameter
+ * Return: returns the node
+ */
 size_t print_listint(const listint_t *h)
 {
-int x;
-struct listint_s *link = NULL;
+int x = 0;
 
-link = h;
-while (link != NULL)
+while (h != NULL)
 {
 	x++;
-	link = link->next;
+	printf("%d \n", h->n);
+	h = h->next;
 }
 return (x);
 }
