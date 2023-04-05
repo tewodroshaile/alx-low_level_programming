@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <stddef.h>
 /**
  * free_listint - a function that free a memory space
  * @head: a pointer of a head list
