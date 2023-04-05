@@ -20,6 +20,6 @@ while (x < index)
 }
 if (node == NULL)
 	return (NULL);
-	
+
 return (node);
 }
