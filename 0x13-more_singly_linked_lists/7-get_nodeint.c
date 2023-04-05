@@ -18,5 +18,8 @@ while (x < index)
 	node = node->next;
 	x++;
 }
+if (node == NULL)
+	return (NULL);
+	
 return (node);
 }
