@@ -23,5 +23,3 @@ while (*head)
 
 return (*head);
 }
-
-}
