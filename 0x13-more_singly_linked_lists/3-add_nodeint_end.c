@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-/*
+/**
  * add_nodeint_end - a fiction that adds a node at the end
  * @head: a pointer to the new node
  * @n: the value to the new node
