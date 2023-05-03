@@ -16,6 +16,9 @@ listint_t *temp_node = *head;
 unsigned int i;
 
 new_node = malloc(sizeof(listint_t));
+if (new_node == NULL || head == NULL)
+	return (NULL);
+
 new_node->n = n;
 new_node->next = NULL;
 
