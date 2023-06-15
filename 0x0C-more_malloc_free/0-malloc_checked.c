@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* malloc_checked - checks the memmory and  termination with a status value of 98
+* malloc_checked - checks the memmory and
+* termination with a status value of 98
 * @b: allocated memory variable
 * Return: a pointer to the allocated memory
 */
